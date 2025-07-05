@@ -1,0 +1,439 @@
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    color: #22343d;
+}
+
+a {
+    text-decoration: none;
+}
+
+ol, ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1150px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    font-family: inherit;
+}
+
+.header {
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    gap: 237px;
+    margin-right: auto;
+}
+
+.logo-header {
+    font-weight: 700;
+    font-size: 30px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    /* line-height: 28px; */
+    line-height: 0.93333;
+    color: #173a56;
+}
+
+.nav-list {
+    display: flex;
+    gap: 30px;
+}
+.nav-list-item {
+}
+.nav-list-link {
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.75;
+color: #22343d;
+display: block;
+padding: 26px 0;
+}
+.active {
+    font-weight: 600;
+}
+.header-list-btn {
+    display: flex;
+    gap: 21px;
+}
+.header-list-btn-item {
+}
+.header-btn {
+    font-weight: 600;
+font-size: 16px;
+border-radius: 4px;
+}
+.sign-in {
+    width: 105px;
+height: 42px;
+text-align: center;
+color: #173a56;
+border: 1px solid #bcd0e5;
+background-color: #fff;
+}
+.sign-up {
+    width: 113px;
+height: 42px;
+    color: #fff;
+    background-color: #02897a;
+}
+
+.hero {
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.text-wrap {
+    max-width: 465px;
+}
+
+.hero-title {
+    font-weight: 700;
+font-size: 40px;
+line-height: 1.5;
+color: #22343d;
+}
+.hero-text {
+    font-weight: 400;
+font-size: 18px;
+line-height: 1.56;
+color: #22343d;
+}
+.hero-btn-list {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.hero-btn-list-item {
+}
+.hero-btn-get {
+    border-radius: 4px;
+    width: 178px;
+height: 53px;
+background-color: #02897a;
+ont-weight: 700;
+font-size: 16px;
+color: #fff;
+}
+.hero-btn-watch {
+    width: 164px;
+height: 23px;
+font-weight: 600;
+font-size: 16px;
+text-decoration: underline;
+text-decoration-skip-ink: none;
+color: #02897a;
+}
+
+.specifically {
+}
+.specifically-container {
+    margin-top: 100px;
+}
+.specifically-title {
+    font-weight: 700;
+font-size: 32px;
+text-align: center;
+line-height: 1.5;
+max-width: 520px;
+margin: 0 auto;
+margin-bottom: 50px;
+}
+.specifically-list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.specifically-list-item {
+}
+
+.specifically-subtitle {
+    font-weight: 600;
+font-size: 22px;
+}
+
+.specifically-text {
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.625;
+}
+
+.specifically-btn {
+border-radius: 4px;
+width: 175px;
+height: 53px;
+background-color: #02897a;
+margin: 0 auto;
+display: block;
+align-self: center;
+}
+
+.management {
+}
+
+.management-container {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.management-text-wrap {
+    max-width: 486px;
+    margin-right: 84px;
+}
+.management-p-title {
+    font-weight: 600;
+font-size: 16px;
+}
+.management-title {
+    font-weight: 700;
+font-size: 32px;
+}
+
+.management-text{
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.625;
+}
+
+.mamagement-list {
+}
+.management-list-item {
+}
+
+.list-item-title {
+    font-weight: 600;
+font-size: 16px;
+line-height: 1.625;
+}
+
+.list-item-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.625;
+}
+
+.management-img {
+}
+
+.support {
+}
+
+.support-container {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.support-img {
+}
+
+.support-text-wrap {
+    max-width: 450px;
+    margin-left: 84px;
+}
+
+.support-p-title {
+    font-weight: 600;
+font-size: 16px;
+margin-bottom: 8px;
+}
+
+.support-title {
+    font-weight: 700;
+font-size: 32px;
+margin-bottom: 25px;
+}
+
+.support-text {
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.625;
+margin-bottom: 30px;
+}
+
+.support-list {
+}
+
+.support-list-item:not(:last-child) {
+    margin-bottom: 25px;
+}
+
+.support-list-text {
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.625;
+}
+
+.optimisation {
+}
+
+.optimisation-container {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.optimisation-text-wrap {
+    margin-right: 84px;
+}
+
+.optimisation-p-title {
+    font-weight: 600;
+font-size: 16px;
+margin-bottom: 8px;
+}
+
+.optimisation-title {
+    font-weight: 700;
+font-size: 32px;
+margin-bottom: 25px;
+}
+
+.optimisation-text {
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.625;
+margin-bottom: 30px;
+}
+
+.optimisation-list {
+}
+
+.optimisation-list-item:not(:last-child) {
+    margin-bottom: 25px;
+}
+
+.optimisation-list-item-title {
+    font-weight: 600;
+font-size: 16px;
+line-height: 1.625;
+}
+
+.optimisation-list-item-text {
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.625;
+}
+
+.optimisation-img {
+}
+
+.process {
+}
+
+.process-container {
+    margin-top: 150px;
+}
+.process-title {
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    color: #22343d;
+    margin-bottom: 25px;
+}
+.process-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    text-align: center;
+    color: #22343d;
+    margin-bottom: 40px;
+    margin: 0 auto;
+    max-width: 542px;
+}
+
+.process-list {
+    display: flex;
+flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px 100px;
+    margin-bottom: 50px;
+
+}
+.process-list-item {
+    display: flex;
+    align-items: center;
+    gap: 19px;
+    width: calc((100% - 100px) / 2);
+}
+.process-img {
+}
+.process-img-text {
+}
+.process-btn-contact {
+    width: 216px;
+height: 53px;
+border-radius: 4px;
+background-color: #02897a;
+padding: 14px 30px;
+font-weight: 700;
+font-size: 16px;
+color: #fff;
+margin: 0 auto;
+display: block;
+align-self: center;
+}
+
+.strategies {
+}
+.strategies-container {
+    margin-top: 100px;
+}
+
+.strategies-title {
+    font-weight: 700;
+font-size: 34px;
+margin-bottom: 10px;
+}
+.strategies-text {
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.625;
+margin-bottom: 40px;
+max-width: 465px;
+}
+.strategies-list {
+    
+}
+.strategies-list-item {
+}
+.strategies-item-wrap {
+}
+.strategies-item-text {
+}
+.author {
+}
+.strategies-item-title {
+}
