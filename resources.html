@@ -13,28 +13,61 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html"
+    <header class="header">
+      <div class="container header-container">
+      <nav class="navigation">
+        <a class="logo-header" href="./index.html"
           ><img
             src="./images/logo.png"
-            alt="logo"
+            alt="logo-product"
             width="40"
             height="36"
           />Product</a
         >
-        <ul>
-          <li><a href="./index.html">Product</a></li>
-          <li><a href="./pricing.html">Pricing</a></li>
-          <li><a href="./customers.html">Customers</a></li>
-          <li><a href="./resources.html">Resources</a></li>
+        <ul class="nav-list">
+          <li class="nav-list-item"><a class="nav-list-link " href="./index.html">Product</a></li>
+          <li class="nav-list-item"><a class="nav-list-link" href="./pricing.html">Pricing</a></li>
+          <li class="nav-list-item"><a class="nav-list-link" href="./customers.html">Customers</a></li>
+          <li class="nav-list-item"><a class="nav-list-link active" href="./resources.html">Resources</a></li>
         </ul>
-        <button type="button">Sign In</button>
-        <button type="button">Sign Up</button>
-      </nav>
+        </nav>
+        <ul class="header-list-btn">
+        <li class="header-list-btn-item"><button type="button" class="header-btn sign-in">Sign In</button></li>
+        <li class="header-list-btn-item"><button type="button" class="header-btn sign-up">Sign Up</button></li>
+        </ul>
+        <svg class="header-svg" width="24" height="24"><use href="./images/icons.svg#icon-header-svg"></use></svg>
+      </div>
+
     </header>
 
     <main>
+
+<section class="business">
+  <div class="container business-container">
+    <div class="info-container">
+    <h1 class="business-title">Great Business made with Product.</h1>
+    <p class="business-text">Build better customer relationships easily messaging that provides a more personal experience for you and your customers.</p>
+    <label class="input-label" for="join-input"></label>
+    <div class="join-input-wrapper">
+  <input type="email" class="join-input-field" placeholder="Enter your email adress" id="join-input"/>
+  <button type="submit" class="submit-button-join">Send</button>
+  </div>
+<div class="clients-group">
+  <ul class="clients-list">
+    <li class="clients-list-item"><img src="./images/Oval_1.jpg" alt="client1"></li>
+    <li class="clients-list-item"><img src="./images/Oval_2.jpg" alt="client2"></li>
+    <li class="clients-list-item"><img src="./images/Oval_3.jpg" alt="client3"></li>
+  </ul>
+  <p class="clients-list-text">Join over <span class="clients-span">4,000+</span> other</p>
+</div>
+</div>
+<div class="business-img-wrapper">
+  <img class="business-img img-1" src="./images/Chat Bot (1).jpg" alt="chat bot 1" width="435" height="426">
+  <img class="business-img img-2" src="./images/Chat Bot (2).jpg" alt="chat bot 2" width="359" height="263">
+</div>
+  </div>
+</section>
+
 <section class="contact-us">
   <div class="container contact-us-container">
     <h2 class="contact-us-title">Contact Us</h2>
@@ -45,8 +78,7 @@ Get in touch with us.</p>
   <li><a href=""></a></li>
   <li><a href=""></a></li>
 </ul>
-<iframe class="conttact-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10167.00957086749!2d30.081899464130395!3d50.42708478207081!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472b361e9e8d4587%3A0xd528f8207d29aa44!2sVictoria%20Film%20Studios!5e0!3m2!1sru!2sua!4v1751792008893!5m2!1sru!2sua" width="871" height="343" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
+<iframe class="conttact-map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d20333.98357901545!2d30.0597968!3d50.4271676!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472b361e9e8d4587%3A0xd528f8207d29aa44!2sVictoria%20Films%20Studio!5e0!3m2!1suk!2sua!4v1751865132408!5m2!1suk!2sua" width="871" height="343" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           <div class="form-container">
             <p class="form-title">Send a message</p>
             <form class="contacts-form">

@@ -622,6 +622,143 @@ padding: 0 27px 40px;
 
 /*resources page*/
 
+.header-svg {
+    fill: #02897a;
+    border-radius: 100px;
+background-color: #f3f3f3;
+border-width: 32px;
+margin-left: 24px;
+}
+
+.business {
+}
+.business-container {
+    margin-top: 76px;
+    display: flex;
+}
+
+.business-title {
+    font-weight: 600;
+font-size: 40px;
+line-height: 1.49;
+letter-spacing: -0.03em;
+max-width: 380px;
+}
+.business-text {
+    font-weight: 400;
+font-size: 20px;
+line-height: 1.6;
+letter-spacing: -0.03em;
+max-width: 535px;
+margin-bottom: 24px;
+}
+.input-label {
+}
+.join-input-wrapper {
+    position: relative;
+    width: 469px;
+    margin-bottom: 24px;
+}
+.join-input-field {
+    border: 1px solid #eaeaea;
+border-radius: 100px;
+width: 100%;
+height: 66px;
+padding: 25px 134px 25px 27px;
+font-size: 16px;
+box-sizing: border-box;
+
+}
+.submit-button-join {
+    position: absolute;
+  top: 50%;
+  right: 8px;
+  transform: translateY(-50%);
+  border-radius: 100px;
+  padding: 0 24px;
+  width: 117px;
+  height: 50px;
+  background-color: #02897a;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1;
+  color: #fff;
+  border: none;
+}
+.clients-group {
+    display: flex;
+    align-items: center;
+}
+.clients-list {
+    display: flex;
+    padding: 0;
+  margin: 0;
+}
+.clients-list-item {
+    position: relative;
+}
+
+.clients-list-item:not(:first-child) {
+  margin-left: -15%;
+}
+
+.clients-list-item:nth-child(1) {
+  z-index: 1;
+}
+.clients-list-item:nth-child(2) {
+  z-index: 2;
+}
+.clients-list-item:nth-child(3) {
+  z-index: 3;
+}
+
+.clients-list-item img {
+  display: block;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.clients-list-text {
+    font-weight: 400;
+font-size: 14px;
+margin-left: 9px;
+}
+.clients-span {
+    font-weight: 500;
+color: #02897a;
+}
+
+.info-container {
+    width: 666px;
+}
+
+.business-img-wrapper {
+    position: relative;
+  width: 541px;
+  height: 484px;
+  margin-left: -85px;
+}
+
+.business-img {
+  display: block;
+  position: absolute;
+}
+
+.img-1 {
+  left: 0;
+  top: 0;
+  z-index: 1;
+  border-radius: 32px;
+}
+
+.img-2 {
+  left: 180px;
+  top: 215px;
+  z-index: 2;
+  border-radius: 16px;
+}
+
 .contact-us {
     margin-top: 100px;
 }
